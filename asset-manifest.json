@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/nosa-movie/static/css/main.b28209c8.chunk.css",
-    "main.js": "/nosa-movie/static/js/main.ad148dea.chunk.js",
-    "main.js.map": "/nosa-movie/static/js/main.ad148dea.chunk.js.map",
+    "main.js": "/nosa-movie/static/js/main.6cc1e52a.chunk.js",
+    "main.js.map": "/nosa-movie/static/js/main.6cc1e52a.chunk.js.map",
     "runtime-main.js": "/nosa-movie/static/js/runtime-main.66eca2a0.js",
     "runtime-main.js.map": "/nosa-movie/static/js/runtime-main.66eca2a0.js.map",
     "static/css/2.25dc03cb.chunk.css": "/nosa-movie/static/css/2.25dc03cb.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.25dc03cb.chunk.css",
     "static/js/2.d2d77b3c.chunk.js",
     "static/css/main.b28209c8.chunk.css",
-    "static/js/main.ad148dea.chunk.js"
+    "static/js/main.6cc1e52a.chunk.js"
   ]
 }
