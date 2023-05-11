@@ -14,6 +14,21 @@ const Detail = () => {
 
   const [item, setItem] = useState(null);
 
+  const downloadTxtFile = () => {
+    // text content
+    const texts = ["line 1", "line 2", "line 3"]
+    // file object
+    const file = new Blob(texts, {type: 'text/plain'});
+    // anchor link
+    const element = document.createElement("a");
+    element.href = URL.createObjectURL(file);
+    element.download = "100ideas-" + Date.now() + ".txt";
+    // simulate link click
+    document.body.appendChild(element);
+    // Required for this to work in FireFox
+    element.click();
+}
+
   useEffect(() => {
     const getDetail = async () => {
       const response = await tmdbApi.detail(category, id, { params: {} });
@@ -58,6 +73,9 @@ const Detail = () => {
                     </span>
                   ))}
               </div>
+              <div className="btnDiv ">
+                <button class="btn"><i class="fa fa-download"></i> Download</button>
+            </div>
               <p className="overview">{item.overview}</p>
               <div className="cast">
                 <div className="section__header">

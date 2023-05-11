@@ -38,7 +38,7 @@ const Footer = () => {
             <Link to={`/${Config.HOME_PAGE}`}>Recent release</Link>
             <Link to={`/${Config.HOME_PAGE}`}>Top IMDB</Link>
           </div>
-
+          
           
         </div>
       </div>
