@@ -53,6 +53,7 @@ const Header = () => {
         <div className="logo">
           <img src={logo} alt="logo" />
           <Link to={`/${Config.HOME_PAGE}`}>NosaMovies</Link>
+            
         </div>
 
         <ul className="header__nav">
@@ -60,6 +61,7 @@ const Header = () => {
             <li key={i} className={`${i === active ? "active" : ""}`}>
               <Link to={e.path}>{e.display}</Link>
             </li>
+
           ))}
           
         </ul>

@@ -37,11 +37,15 @@ const Footer = () => {
             <Link to={`/${Config.HOME_PAGE}`}>You must watch</Link>
             <Link to={`/${Config.HOME_PAGE}`}>Recent release</Link>
             <Link to={`/${Config.HOME_PAGE}`}>Top IMDB</Link>
-          </div>
-          
-          
+          </div>                 
         </div>
+
       </div>
+
+            
+          <div className="me">
+          <h3>&copy; 2022 Ehigiator Nosa John (GhenGhen)</h3>
+          </div>
     </div>
   );
 };

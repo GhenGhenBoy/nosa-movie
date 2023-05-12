@@ -1,5 +1,17 @@
 @use "../../scss/" as *;
 
+.me {
+  
+  color: rgb(229, 223, 54);
+  font-weight: bold;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  margin-top: 3rem;
+  padding-left: 5rem;
+  
+}
+
 .footer {
   position: relative;
   padding: 6rem 2rem;
