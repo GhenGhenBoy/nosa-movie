@@ -25,7 +25,7 @@ const Footer = () => {
         <div className="footer__content__menus">
           <div className="footer__content__menu">
             <Link to={`/${Config.HOME_PAGE}`}>Home</Link>
-            <Link to={`/${Config.HOME_PAGE}`}>Contact Nosa (+2348137252546)</Link>
+            <Link to={{ pathname: "https://nosaportfolio.netlify.app/#contact" }} target="_blank">Contact Nosa</Link>
             <Link to={`/${Config.HOME_PAGE}`}>Term of service</Link>
             <Link to={{ pathname: "https://nosaportfolio.netlify.app/#about" }} target="_blank">About Nosa</Link>
           </div>
@@ -37,11 +37,11 @@ const Footer = () => {
           </div>
           <div className="footer__content__menu">
             <Link to={`/${Config.HOME_PAGE}`}>You must watch</Link>
-            <Link to={{ pathname: " https://ghenghenboy.github.io/nosa-movie/movie" }} target="_blank">Recent Release</Link>
+            <Link to={{ pathname: " https://ghenghenboy.github.io/nosa-movie/" }} target="_blank">Recent Release</Link>
             <Link to={{ pathname: "https:/goal.com" }} target="_blank">Sports</Link>
           </div>                 
         </div>
-
+        
       </div>
      
       
