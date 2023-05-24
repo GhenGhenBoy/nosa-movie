@@ -25,20 +25,28 @@ const Footer = () => {
         <div className="footer__content__menus">
           <div className="footer__content__menu">
             <Link to={`/${Config.HOME_PAGE}`}>Home</Link>
-            <Link to={{ pathname: "https://nosaportfolio.netlify.app/#contact" }} target="_blank">Contact Nosa</Link>
+            <a href="https://nosaportfolio.netlify.app/#contact" target="_blank" rel="noreferrer">Contact Nosa
+            </a>
             <Link to={`/${Config.HOME_PAGE}`}>Term of service</Link>
-            <Link to={{ pathname: "https://nosaportfolio.netlify.app/#about" }} target="_blank">About Nosa</Link>
+            <a href="https://nosaportfolio.netlify.app/#about" target="_blank" rel="noreferrer">About
+            </a>
           </div>
           <div className="footer__content__menu">
-          <Link to={{ pathname: "https://nosaportfolio.netlify.app/" }} target="_blank">Portfolio</Link>
-            <Link to={{ pathname: "https://web.facebook.com/profile.php?id=100090189356410" }} target="_blank">Facebook</Link>
-            <Link to={{ pathname: "https://www.imdb.com/?ref_=nv_home" }} target="_blank">IMDB</Link>
+          <a href="https://nosaportfolio.netlify.app/" target="_blank" rel="noreferrer">Portfolio
+            </a>
+            <a href="https://web.facebook.com/profile.php?id=100090189356410" target="_blank" rel="noreferrer">Facebook
+            </a>
+            <a href="https://www.imdb.com/?ref_=nv_home" target="_blank" rel="noreferrer">IMDB
+            </a>
             <Link to={`/${Config.HOME_PAGE}`}>Privacy policy</Link>
           </div>
           <div className="footer__content__menu">
-            <Link to={`/${Config.HOME_PAGE}`}>You must watch</Link>
-            <Link to={{ pathname: " https://ghenghenboy.github.io/nosa-movie/" }} target="_blank">Recent Release</Link>
-            <Link to={{ pathname: "https:/goal.com" }} target="_blank">Sports</Link>
+          <a href="https://ghenghenboy.github.io/nosa-movie/#/nosa-movie/movie" target="_blank" rel="noreferrer">You must watch
+            </a>
+            <a href="https://ghenghenboy.github.io/nosa-movie/" target="_blank" rel="noreferrer">Recent release
+            </a>
+            <a href="https://goal.com/mancity" target="_blank" rel="noreferrer">Sport
+            </a>
           </div>                 
         </div>
         
