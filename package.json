@@ -4,19 +4,27 @@
   "private": true,
   "homepage": "https://GhenGhenBoy.github.io/nosa-movie/",
   "dependencies": {
+    "@ant-design/icons": "^5.0.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.23.0",
+    "component": "^1.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
     "gh-pages": "^3.2.3",
+    "hamburger-react": "^2.5.0",
+    "nodemon": "^2.0.22",
     "query-string": "^7.0.1",
     "react": "^17.0.2",
+    "react-bootstrap": "^2.7.4",
     "react-dom": "^17.0.2",
     "react-icons": "^4.8.0",
     "react-pro-sidebar": "^0.7.1",
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
     "sass": "^1.43.2",
+    "styled": "^1.0.0",
     "swiper": "6.8.4",
     "web-vitals": "^1.0.1"
   },
@@ -26,7 +34,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "proxy": "http://localhost:5000"
   },
   "eslintConfig": {
     "extends": [
@@ -45,5 +54,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GhenGhenBoy/nosa-movie.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GhenGhenBoy/nosa-movie/issues"
+  },
+  "description": ""
 }

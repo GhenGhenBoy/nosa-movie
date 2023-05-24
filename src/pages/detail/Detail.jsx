@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 
+
+
 import tmdbApi from "./../../api/tmdbApi";
 import apiConfig from "../../api/apiConfig";
 
@@ -9,25 +11,15 @@ import CastList from "./CastList";
 import VideoList from "./VideoList";
 import MovieList from "./../../components/movie-list/MovieList";
 
+
 const Detail = () => {
   const { category, id } = useParams();
 
   const [item, setItem] = useState(null);
 
-  const downloadTxtFile = () => {
-    // text content
-    const texts = ["line 1", "line 2", "line 3"]
-    // file object
-    const file = new Blob(texts, {type: 'text/plain'});
-    // anchor link
-    const element = document.createElement("a");
-    element.href = URL.createObjectURL(file);
-    element.download = "100ideas-" + Date.now() + ".txt";
-    // simulate link click
-    document.body.appendChild(element);
-    // Required for this to work in FireFox
-    element.click();
-}
+  
+
+  
 
   useEffect(() => {
     const getDetail = async () => {
@@ -73,8 +65,9 @@ const Detail = () => {
                     </span>
                   ))}
               </div>
-              <div className="btnDiv ">
-                <button class="btn"><i class="fa fa-download"></i> Download</button>
+              <div className="btnDiv "><a href="https://www.thenetnaija.net/videos/movies" target="_blank" rel="noreferrer">
+              <button class="btn nos "><i class="fa fa-download"></i> Download</button>
+              </a>
             </div>
               <p className="overview">{item.overview}</p>
               <div className="cast">

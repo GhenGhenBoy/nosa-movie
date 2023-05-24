@@ -17,6 +17,14 @@
   }
 }
 
+.header__nav .log {
+  padding: 5px 0;
+  font-weight: 700;
+  position: relative;
+  font-size: 1.5rem;
+  
+}
+
 .header {
   height: $header-height;
   position: fixed;
@@ -31,6 +39,7 @@
     background-color: $body-bg;
   }
 
+  
   &__wrap {
     @include flex(center, space-between);
 

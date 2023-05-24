@@ -7,6 +7,8 @@ import logo from "./../../assets/logo.png";
 
 import * as Config from "./../../constants/Config";
 
+
+
 const headerNav = [
   {
     display: "Home",
@@ -20,6 +22,7 @@ const headerNav = [
     display: "TV Series",
     path: `/${Config.HOME_PAGE}/tv`,
   },
+
 ];
 
 const Header = () => {
@@ -52,7 +55,9 @@ const Header = () => {
       <div className="header__wrap container">
         <div className="logo">
           <img src={logo} alt="logo" />
+          
           <Link to={`/${Config.HOME_PAGE}`}>NosaMovies</Link>
+          
             
         </div>
 
@@ -60,6 +65,7 @@ const Header = () => {
           {headerNav.map((e, i) => (
             <li key={i} className={`${i === active ? "active" : ""}`}>
               <Link to={e.path}>{e.display}</Link>
+              
             </li>
 
           ))}
