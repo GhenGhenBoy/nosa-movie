@@ -54,7 +54,7 @@ const Footer = () => {
      
       
           <div className="me">
-          <h3>&copy; 2022 Ehigiator Nosa John (GhenGhen) 08137252546, 08126786747</h3>
+          <h3>&copy; 2022 Ehigiator Nosa John (GhenGhen) 07072298383, 08126876747</h3>
           </div>
     </div>
   );
